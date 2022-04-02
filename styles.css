@@ -1,0 +1,28 @@
+body {
+    background-color: plum;
+    display: flex;
+}
+
+h1 {
+   color: darkorchid
+}
+
+.second_h1 {
+    color: black
+}
+
+.group-text {
+    /*Margin : moves component*/
+    margin: 24px;
+    /*Padding : within the component itself*/
+    padding: 24px;
+    background-color: pink;
+}
+
+/*Say ... for mobile view*/
+@media (max-width: 480px) {
+    body {
+        /*A way to say: try for same column, not same row*/
+        flex-direction: column;
+    }
+}
